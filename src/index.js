@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require('express');
 const axios = require('axios');
 
@@ -57,4 +59,4 @@ app.post('/api/:abbrev/:chapter/:verses', (req, res) => {
 
 });
 
-app.listen(8080);
+app.listen(process.env.PORT);
