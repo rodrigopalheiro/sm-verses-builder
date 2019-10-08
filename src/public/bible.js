@@ -513,6 +513,6 @@ window.getVerseURL = function( book, verses ) {
 	const chapter = verses.split(":", 2)[0];
 	const v = verses.split(":", 2)[1];
 
-	return `http://localhost:3000/api/${abbrev}/${chapter}/${v}`;
+	return `https://sm-verse-builder.herokuapp.com/api/${abbrev}/${chapter}/${v}`;
 	
 }
