@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Saiba Mais</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+
+                <div class="py-3">
+                    <h2>Saiba Mais</h2>
+                </div>
+                
+                <form class="mt-2 d-flex flex-row" id="form">
+                    <input id="original_book" type="text" 
+                    class="form-control mr-auto" style="font-size:26px;width: 55%;" 
+                    placeholder="João">
+
+                    <input id="original_chapter" type="text" 
+                    class="form-control" style="font-size:26px;width: 40%;" 
+                    placeholder="3:16">
+                </form>
+
+                <div class="jumbotron mt-2">
+                    <input type="text" id="processed" 
+                        style="width: 100%;background: none; border: none; outline: none;text-align: center;font-size:32px;"
+                        data-toggle="tooltip" data-placement="top" title="Copiado!">
+                </div>
+                <div class="jumbotron mt-3 p-4">
+                    <textarea id="bibleTextArea" style="color:#000;width:100%; font-size: 16px;background: transparent;border: none;outline: none;"
+                        rows="15" data-toggle="tooltip" data-placement="top" title="Copiado!"></textarea>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="bible.js"></script>
+    
+</body>
+</html>
